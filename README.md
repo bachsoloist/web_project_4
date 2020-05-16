@@ -1,16 +1,17 @@
 # Project 4: Around The U.S.
+#### Author Dmitrii Mokrenko
+### File list:
+* index.html
+* README.md
+* Images folder contains all images
+* Pages folder contains index.css and normalize.css 
+* Blocks folder contains all other CSS files which are organized according to BEM.
 
-### Overview
+BEM file structure was implemented to organize CSS files. The idea behind it is to divide the user interface into independent blocks. This makes interface development easy and fast even with a complex UI, and it allows reuse of existing code without copying and pasting. This allows for the files to always be in a familiar location, whioch makes it easier for developers to navigate a project and switch between projects.
 
-* Figma
-* Images
+More information about BEM structure can be found here: [https://en.bem.info/methodology/filestructure/]
 
-**Figma**
+Technologies used: HTML, CSS.
 
-* [Link to the project in Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)
 
-**Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Have fun with JavaScript!

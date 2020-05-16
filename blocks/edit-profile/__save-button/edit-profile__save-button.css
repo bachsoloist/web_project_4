@@ -1,0 +1,32 @@
+.edit-profile__save-button {
+  background-color: #000000;
+  color: #ffffff;
+  width: 358px;
+  height: 50.15px;
+  padding: 0;
+  margin: 0 0 0 36px;
+  border-radius: 2px;
+  border: none;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.edit-profile__save-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 550px) {
+  .edit-profile__save-button {
+    background-color: #000000;
+    color: #ffffff;
+    width: 65.0909091vw;
+    height: 9.11818182vw;
+    padding: 0;
+    margin: 0 0 0 6.54545455vw;
+    border-radius: 2px;
+    border: none;
+    font-size: 3.27272727vw;
+    line-height: 4vw;
+  }
+}

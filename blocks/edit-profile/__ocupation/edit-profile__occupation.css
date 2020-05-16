@@ -1,0 +1,20 @@
+.edit-profile__occupation {
+  width: 358px;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 0 0 36px;
+  padding: 10px 0 12px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 48px;
+}
+
+@media (min-width: 320px) and (max-width: 550px) {
+  .edit-profile__occupation {
+    width: 65.0909091vw;
+    font-size: 2.54545455vw;
+    line-height: 3.09090909vw;
+    margin: 0 0 8.72727273vw 6.54545455vw;
+    padding: 1.81818182vw 0 2.18181818vw;
+  }
+}

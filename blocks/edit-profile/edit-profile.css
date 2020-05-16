@@ -1,0 +1,16 @@
+@import url("./__close-button/edit-profile__close-button.css");
+@import url("./__name/edit-profile__name.css");
+@import url("./__ocupation/edit-profile__occupation.css");
+@import url("./__save-button/edit-profile__save-button.css");
+@import url("./__title/edit-profile__title.css");
+@import url("./__form/edit-profile__form.css");
+
+.edit-profile {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  padding-top: 150px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}

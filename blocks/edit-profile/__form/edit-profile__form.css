@@ -1,0 +1,15 @@
+.edit-profile__form {
+  width: 430px;
+  height: 330px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 0 425px;
+  margin: 0 auto;
+}
+
+@media (min-width: 320px) and (max-width: 550px) {
+  .edit-profile__form {
+    width: 78.1818182vw;
+    height: 60vw;
+  }
+}

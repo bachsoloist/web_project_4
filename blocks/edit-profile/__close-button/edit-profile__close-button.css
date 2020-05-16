@@ -1,0 +1,31 @@
+.edit-profile__close-button {
+  background-image: url("../../../images/Close\ Icon.svg");
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  background-size: 58.7px;
+  width: 33.7px;
+  height: 33.7px;
+  padding: 0;
+  background-position: center;
+  position: relative;
+  left: 432px;
+  top: -36px;
+}
+
+.edit-profile__close-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 550px) {
+  .edit-profile__close-button {
+    background-size: 10.6727273vw;
+    width: 6.12727273vw;
+    height: 6.12727273vw;
+    padding: 0;
+    background-position: center;
+    position: relative;
+    left: 78.5454545vw;
+    top: -6.54545455vw;
+  }
+}

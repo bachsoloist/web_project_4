@@ -1,0 +1,41 @@
+.photo-grid__like-button {
+  width: 21.76px;
+  height: 19.13px;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 31px 22.24px 0 0;
+  border: none;
+  margin-right: 22.24px;
+  background-image: url(../../../images/heart.svg);
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 320px) and (max-width: 661px) {
+  .photo-grid__like-button {
+    width: 6.8vw;
+    height: 5.978125vw;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 31px 6.95vw 0 0;
+    background-size: contain;
+  }
+}
+
+@media (min-width: 662px) and (max-width: 1003px) {
+  .photo-grid__like-button {
+    width: 3.28700906vw;
+    height: 2.8897281vw;
+    margin: 31px 3.35951662vw 0 0;
+    background-size: contain;
+  }
+}
+
+@media (min-width: 1004px) and (max-width: 1279px) {
+  .photo-grid__like-button {
+    width: 2.16733068vw;
+    height: 1.90537849vw;
+    margin-right: 2.21513944vw;
+    background-size: contain;
+}
+  }
+}
