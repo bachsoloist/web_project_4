@@ -3,11 +3,11 @@
   height: 19.13px;
   background-color: #ffffff;
   padding: 0;
-  margin: 31px 22.24px 0 0;
+  margin: 0px 22.24px 32px 0;
   border: none;
-  margin-right: 22.24px;
   background-image: url(../../../images/heart.svg);
   background-repeat: no-repeat;
+  align-self: flex-end;
 }
 
 @media (min-width: 320px) and (max-width: 661px) {
@@ -16,7 +16,7 @@
     height: 5.978125vw;
     background-color: #ffffff;
     padding: 0;
-    margin: 31px 6.95vw 0 0;
+    margin: 0 6.95vw 10.625vw 0;
     background-size: contain;
   }
 }
@@ -25,7 +25,7 @@
   .photo-grid__like-button {
     width: 3.28700906vw;
     height: 2.8897281vw;
-    margin: 31px 3.35951662vw 0 0;
+    margin: 0 3.35951662vw 5.13595166vw 0;
     background-size: contain;
   }
 }
@@ -34,8 +34,7 @@
   .photo-grid__like-button {
     width: 2.16733068vw;
     height: 1.90537849vw;
-    margin-right: 2.21513944vw;
+    margin: 0px 2.21513944vw 3.187251vw 0;
     background-size: contain;
 }
-  }
 }

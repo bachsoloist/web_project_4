@@ -11,15 +11,15 @@ function setDefaultInputValue () {
     inputAbout.value = profileAbout.textContent;
 }
 
-function popupOpen (popup) {
-    popup.style.display = "block";
+function popupHandler (popup) {
+    popup.classList.toggle('edit-profile_open');
 }
 
 function formSubmitHandler (event) {
     event.preventDefault();
     profileName.textContent = inputName.value;
     profileAbout.textContent = inputAbout.value;
-    editProfile.style.display = "none";
+    popupHandler (editProfile);
 }
 
 function resetValue () {
@@ -27,18 +27,16 @@ function resetValue () {
     inputAbout.value = profileAbout.textContent;
 }
 
-function closePopup () {
-    resetValue();
-    editProfile.style.display = "none";
-}
-
 setDefaultInputValue();
 
 profileEditButton.addEventListener("click", function() {
-    popupOpen(editProfile);
+    popupHandler (editProfile);
 });
 editProfile.addEventListener('submit', formSubmitHandler); 
-closeButton.addEventListener("click", closePopup);
+closeButton.addEventListener("click", function() {
+    resetValue();
+    popupHandler (editProfile);
+});
 
 
 

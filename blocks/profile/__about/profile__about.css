@@ -2,13 +2,17 @@
   font-style: normal;
   font-size: 18px;
   line-height: 22px;
+  max-width: 410px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
   color: #ffffff;
   margin: 0 0 0 30px;
 }
 
 @media (min-width: 320px) and (max-width: 1279px) {
   .profile__about {
-    max-width: 16.25vw;
+    max-width: 78.25vw;
     font-size: 4.375vw;
     line-height: 5.3125vw;
     text-align: center;

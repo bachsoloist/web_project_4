@@ -13,5 +13,5 @@ More information about BEM structure can be found here: [https://en.bem.info/met
 
 Technologies used: HTML, CSS.
 
-
+github link can be found here: [ https://bachsoloist.github.io/web_project_4/index.html]
 

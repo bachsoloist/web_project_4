@@ -1,11 +1,12 @@
 .photo-grid__item {
   background-color: #ffffff;
   width: 282px;
-  border-radius: 10px;
+  height: 361px;
   border-radius: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 320px) and (max-width: 661px) {
@@ -13,6 +14,7 @@
     width: 88.125vw;
     height: 114.6875vw;
     border-radius: 3.125vw;
+    background-size: 88.125vw;
   }
 }
 
@@ -21,7 +23,7 @@
     width: 42.5981873vw;
     height: 55.4380665vw;
     border-radius: 1.51057402vw;
-    align-content: flex-start;
+    background-size: 42.5981873vw;
   }
 }
 
@@ -29,5 +31,6 @@
   .photo-grid__item {
     width: 28.0876494vw;
     height: 35.9561753vw;
+    background-size: 28.0876494vw;
   }
 }

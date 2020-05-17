@@ -2,15 +2,21 @@
   font-weight: 900;
   font-size: 24px;
   line-height: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   background-color: #ffffff;
-  max-width: 282px;
-  margin: 25px auto 31px 21px;
+  max-width: 217px;
+  margin: 25px auto 27px 21px;
+  align-self: flex-end;
 }
 
 @media (min-width: 320px) and (max-width: 661px) {
   .photo-grid__title {
     font-size: 7.5vw;
     line-height: 9.0625vw;
+    max-width: 67.8125vw;
+    margin: 25px auto 9.6875vw 21px;
   }
 }
 
@@ -18,6 +24,8 @@
   .photo-grid__title {
     font-size: 3.62537764vw;
     line-height: 4.38066465vw;
+    max-width: 31.7220544vw;
+    margin: 25px auto 4.68277946vw 21px;
   }
 }
 
@@ -26,5 +34,7 @@
     height: auto;
     font-size: 2.39043825vw;
     line-height: 2.88844622vw;
+    max-width: 21.0159363vw;
+    margin-bottom: 2.78884462vw;
   }
 }

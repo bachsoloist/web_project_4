@@ -6,6 +6,6 @@
 
 @media (min-width: 320px) and (max-width: 1279px) {
   .footer {
-    width: 88.125vw;
+    max-width: 88.125vw;
   }
 }

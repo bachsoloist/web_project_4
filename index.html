@@ -24,38 +24,32 @@
                 <button class="profile__edit-button button"></button>
                 <p class="profile__about">Explorer</p>
             </div>
-            <button class="profile__add-button button"><img src="./images/plus.svg" class="profile__logo-plus"></button>
+            <button class="profile__add-button button"></button>
         </section>
 
         <section class="photo-grid">
             <ul class="photo-grid__container">
-                <li class="photo-grid__item"><img src="./images/yosemite.jpg" alt="image Yosemite Valley"
-                        class="photo-grid__image">
+                <li class="photo-grid__item" style="background-image:url('./images/yosemite.jpg')">
                     <p class="photo-grid__title">Yosemite Valley
                     </p><button class="photo-grid__like-button"></button>
                 </li>
-                <li class="photo-grid__item"><img src="./images/LakeLouise.jpg" alt="image Lake Louise"
-                        class="photo-grid__image">
+                <li class="photo-grid__item" style="background-image:url('./images/LakeLouise.jpg')">
                     <p class="photo-grid__title">Lake Louis
                     </p><button class="photo-grid__like-button"></button>
                 </li>
-                <li class="photo-grid__item"><img src="./images/BoldMountains.jpg" alt="image Bold Mountains"
-                        class="photo-grid__image">
+                <li class="photo-grid__item" style="background-image:url('./images/BoldMountains.jpg')">
                     <p class="photo-grid__title">Bald Mountains
                     </p><button class="photo-grid__like-button"></button>
                 </li>
-                <li class="photo-grid__item"><img src="./images/Latemar.jpg" alt="image Latemar"
-                        class="photo-grid__image">
+                <li class="photo-grid__item" style="background-image:url('./images/Latemar.jpg')">
                     <p class="photo-grid__title">Latemar
                     </p><button class="photo-grid__like-button"></button>
                 </li>
-                <li class="photo-grid__item"><img src="./images/VanoisNational.jpg" alt="image Vanois National"
-                        class="photo-grid__image">
-                    <p class="photo-grid__title">Vanois National...
+                <li class="photo-grid__item" style="background-image:url('./images/VanoisNational.jpg')">
+                    <p class="photo-grid__title">Vanois National Park
                     </p><button class="photo-grid__like-button"></button>
                 </li>
-                <li class="photo-grid__item"><img src="./images/LagodeBraies.jpg" alt="image Lago di Braies"
-                        class="photo-grid__image">
+                <li class="photo-grid__item" style="background-image:url('./images/LagodeBraies.jpg')">
                     <p class="photo-grid__title">Lago di Braies
                     </p><button class="photo-grid__like-button"></button>
                 </li>
@@ -64,7 +58,7 @@
 
         <section class="edit-profile">
             <form class="edit-profile__form">
-                <button class="edit-profile__close-button"></button>
+                <div class="edit-profile__close-button"></div>
                 <h3 class="edit-profile__title">Edit profile</h3>
                 <input type="text" class="edit-profile__name" placeholder="Name">
                 <input type="text" class="edit-profile__occupation" placeholder="About me">
@@ -73,11 +67,12 @@
         </section>
     </main>
 
+    <footer class="footer">
+        <p class="footer__copyright">© 2020. Around the U.S.</p>
+    </footer>
+
 </body>
 
-<footer class="footer">
-    <p class="footer__copyright">© 2020. Around the U.S.</p>
-</footer>
 <script src="script.js"></script>
 
 </body>
