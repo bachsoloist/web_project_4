@@ -6,23 +6,23 @@ const profileAbout = document.querySelector(".profile__about");
 const inputName = document.querySelector(".edit-profile__name");
 const inputAbout = document.querySelector(".edit-profile__occupation");
 
-function setDefaultInputValue () {
+function setDefaultInputValue() {
     inputName.value = profileName.textContent;
     inputAbout.value = profileAbout.textContent;
 }
 
-function popupHandler (popup) {
+function popupHandler(popup) {
     popup.classList.toggle('edit-profile_open');
 }
 
-function formSubmitHandler (event) {
+function formSubmitHandler(event) {
     event.preventDefault();
     profileName.textContent = inputName.value;
     profileAbout.textContent = inputAbout.value;
-    popupHandler (editProfile);
+    popupHandler(editProfile);
 }
 
-function resetValue () {
+function resetValue() {
     inputName.value = profileName.textContent;
     inputAbout.value = profileAbout.textContent;
 }
@@ -30,13 +30,13 @@ function resetValue () {
 setDefaultInputValue();
 
 profileEditButton.addEventListener("click", function() {
-    popupHandler (editProfile);
+    popupHandler(editProfile);
 });
 editProfile.addEventListener('submit', formSubmitHandler); 
 closeButton.addEventListener("click", function() {
     resetValue();
-    popupHandler (editProfile);
-});
+    popupHandler(editProfile);
+}); 
 
 
 
