@@ -3,9 +3,9 @@
   height: 19.13px;
   background-color: #ffffff;
   padding: 0;
-  margin: 0px 22.24px 32px 0;
+  margin: 0 22.24px 32px 0;
   border: none;
-  background-image: url(../../../images/heart.svg);
+  background-image: url('../../../images/heart.svg');
   background-repeat: no-repeat;
   align-self: flex-end;
 }
@@ -34,7 +34,7 @@
   .photo-grid__like-button {
     width: 2.16733068vw;
     height: 1.90537849vw;
-    margin: 0px 2.21513944vw 3.187251vw 0;
+    margin: 0 2.21513944vw 3.187251vw 0;
     background-size: contain;
 }
 }
